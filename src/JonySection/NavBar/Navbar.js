@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import jonyMart from '../../imgfile/jonymart.png';
+
 
 
 const Navbar = () => {
@@ -26,7 +28,7 @@ const Navbar = () => {
                             <li><Link to='/home'>Vendor</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="btn btn-ghost normal-case text-xl w-24 m-4 pr-2"><img src={jonyMart} alt='' /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
