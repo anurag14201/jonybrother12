@@ -35,26 +35,45 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='lg:grid grid-cols-4 md:grid grid-cols-1 m-4 pt-6 pb-6'>
                 <div className="card w-full bg-base-100 shadow-xl m-2 p-3">
                     <div className="card-body">
                         <div>
                             <h2>Free Shipping & Returns</h2>
+                            <h4>For all orders over 99$</h4>
+
                         </div>
+                    </div>
+                </div>
+                <div className="card w-full bg-base-100 shadow-xl m-2 p-3">
+                    <div className="card-body">
                         <div>
-                            <h2>Free Shipping & Returns</h2>
+                            <h2>Secure Payment</h2>
+                            <h4>We ensure Secure payment</h4>
+
                         </div>
+                    </div>
+                </div>
+                <div className="card w-full bg-base-100 shadow-xl m-2 p-3">
+                    <div className="card-body">
                         <div>
-                            <h2>Free Shipping & Returns</h2>
+                            <h2>Money Back Guarantee</h2>
+                            <h4>Any back within 30 days</h4>
                         </div>
+                    </div>
+                </div>
+                <div className="card w-full bg-base-100 shadow-xl m-2 p-3">
+                    <div className="card-body">
                         <div>
-                            <h2>Free Shipping & Returns</h2>
+                            <h2>Customer Support</h2>
+                            <h4>Call us or Email us 24/7</h4>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <div className='grid grid-cols-2'>
+                <div className='lg:grid grid-cols-2 md:grid-cols-1'>
                     <div className="card m-2 card-compact w-full bg-base-100 shadow-xl">
                         <figure><img src={homBanner1} alt="Shoes" /></figure>
                         <div className="card-body">
@@ -67,6 +86,14 @@ const Home = () => {
 
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className='lg:grid grid-cols-2 md:grid grid-cols-1 sm:grid grid-cols-1'>
+                <div>
+                    <div className="artboard artboard-horizontal phone-3">736×414</div>
+                </div>
+                <div>
+                    <div className="artboard phone-1">320×568</div>
                 </div>
             </div>
         </div>
