@@ -15,6 +15,7 @@ const PopularItems = () => {
             <div>
                 <h1 className='text-2xl font-bold m-6 p-6'>Popular Products</h1>
                 <div className="divider"></div>
+
             </div>
             <div className='lg:grid-cols-5 md:grid-cols-3 sm:grid grid-cols-3 m-4 p-4'>
                 <div className="card bg-base-100 shadow-xl m-2">
@@ -127,7 +128,7 @@ const PopularItems = () => {
                 </div>
                 <div className="card bg-base-100 shadow-xl m-2">
                     <figure className="px-10 pt-10">
-                        <img src={shirtpic} alt="Shoes" className="rounded-xl" />
+                        <img src={Computer} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Computer</h2>
@@ -215,6 +216,10 @@ const PopularItems = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='bg-gradient-to-r from-cyan-500 to-blue-500 font-bold text-white p-10'>
+                <h1 className='text-lg'>SUBSCRIBE TO OUR NEWSLETTER</h1>
+                <p className='text-md'>Get all the latest information on Events, Sales and Offers.</p>
             </div>
         </div>
 
