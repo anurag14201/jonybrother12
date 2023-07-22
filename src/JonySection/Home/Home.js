@@ -77,7 +77,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <div className='grid grid-cols-2'>
+                <div className='lg:grid-cols-2 md:grid-cols-1 sm:grid grid-cols-1'>
                     <div className="card m-2 card-compact w-full bg-base-100 shadow-xl">
                         <figure><img src={homBanner1} alt="Shoes" /></figure>
                         <div className="card-body">
