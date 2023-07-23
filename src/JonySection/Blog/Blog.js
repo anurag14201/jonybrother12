@@ -62,10 +62,7 @@ const Blog = () => {
                 </div>
 
             </div>
-            <div className='bg-gradient-to-r from-cyan-500 to-blue-500 font-bold text-white p-10'>
-                <h1 className='text-lg'>SUBSCRIBE TO OUR NEWSLETTER</h1>
-                <p className='text-md'>Get all the latest information on Events, Sales and Offers.</p>
-            </div>
+
         </div>
     );
 };

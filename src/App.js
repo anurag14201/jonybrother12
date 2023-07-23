@@ -12,6 +12,7 @@ import Home from './JonySection/Home/Home';
 import Shop from './JonySection/Shop/Shop';
 import Blog from './JonySection/Blog/Blog';
 import Vendor from './JonySection/Vendor/Vendor';
+import Subs from './JonySection/Subs/Subs';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/contract' element={<Vendor></Vendor>}></Route>
       </Routes>
+      <Subs></Subs>
       <Footer></Footer>
     </div>
   );
