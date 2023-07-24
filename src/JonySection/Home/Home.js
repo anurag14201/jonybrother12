@@ -9,7 +9,7 @@ import homBanner2 from '../../imgfile/banner-2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import HotItems from '../Products/HotItems';
 import PopularItems from '../Products/PopularItems';
-
+import clint from '../../imgfile/Screenshot 2023-07-24 100348.png';
 const Home = () => {
     return (
         <div>
@@ -130,6 +130,12 @@ const Home = () => {
             </div>
             <HotItems></HotItems>
             <PopularItems></PopularItems>
+            <div>
+                <h1 className=''>Our Clint</h1>
+                <div>
+                    <img src={clint} alt=''></img>
+                </div>
+            </div>
         </div>
     );
 };
