@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import HotItems from '../Products/HotItems';
 import PopularItems from '../Products/PopularItems';
 import clint from '../../imgfile/Screenshot 2023-07-24 100348.png';
+import OurBlog from '../Blog/OurBlog';
 const Home = () => {
     return (
         <div>
@@ -131,11 +132,12 @@ const Home = () => {
             <HotItems></HotItems>
             <PopularItems></PopularItems>
             <div>
-                <h1 className=''>Our Clint</h1>
+                <h1 className='text-2xl font-bold m-4 p-4'>Our Clients</h1>
                 <div>
-                    <img src={clint} alt=''></img>
+                    <img src={clint} alt='' className='p-10'></img>
                 </div>
             </div>
+            <OurBlog></OurBlog>
         </div>
     );
 };
