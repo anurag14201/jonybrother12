@@ -8,7 +8,7 @@ import computer from '../../imgfile/Computer.jpg'
 
 const HotItems = () => {
     return (
-        <div className='lg:grid-cols-6 md:grid-clos-2 sm:grid grid-cols-2 m-4 p-4'>
+        <div className='lg:grid-cols-6 md:grid-clos-3 sm:grid grid-cols-2 m-4 p-4'>
             <div className="card w-44 bg-base-100 shadow-xl image-full m-4">
                 <figure><img src={shirtpic} alt="Shoes" /></figure>
                 <div className="card-body">

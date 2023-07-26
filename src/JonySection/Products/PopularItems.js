@@ -7,6 +7,7 @@ import sports from '../../imgfile/Sports.jpg'
 import games from '../../imgfile/Games.jpg'
 import banner5 from '../../imgfile/banner-5.jpg'
 import banner6 from '../../imgfile/banner-6.jpg'
+import ClothAndAl from './ClothAndAl';
 
 
 const PopularItems = () => {
@@ -217,6 +218,7 @@ const PopularItems = () => {
                     </div>
                 </div>
             </div>
+            <ClothAndAl></ClothAndAl>
 
         </div>
 
