@@ -4,6 +4,7 @@ import aboutBanner2 from '../../imgfile/banner-2 (1).jpg'
 import profile from '../../imgfile/IMG_5207.jpeg'
 import aboutBanner3 from '../../imgfile/banner-3 (1).jpg'
 import { Link } from 'react-router-dom';
+import Ledear from './Ledear';
 
 
 const About = () => {
@@ -15,9 +16,9 @@ const About = () => {
                     Consultants Helping Your Business Grow</h1>
             </div>
             <div className='grid place-items-center'>
-                <img src={aboutBanner} alt=''></img>
+                <img className='rounded-lg' src={aboutBanner} alt=''></img>
             </div>
-            <div className='p-24'>
+            <div className='p-32'>
                 <div className="card lg:card-side bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title">We Provide Continuous & Kind Service for Customers </h2>
@@ -59,7 +60,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <figure><img src={aboutBanner2} alt="Album" /></figure>
+                    <img className='rounded-lg' src={aboutBanner2} alt="Album" />
                 </div>
             </div>
             <div className='grid place-item-center p-8'>
@@ -98,20 +99,20 @@ const About = () => {
 
                 </div>
             </div>
-            <div className='p-24'>
+            <div className='p-32'>
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src={aboutBanner3} alt="Album" /></figure>
+                    <img className='rounded-lg' src={aboutBanner3} alt="Album" />
                     <div className="card-body">
                         <h2 className="card-title">We Boost Our Clients’ Bottom Line by Optimizing Their Growth Potential</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis tellus in.
-                            metus vulputate eu scelerisque felis. Vel pretium lectus qua.
-                            Arpis massa. Nunc id cursus metus ididunt ut labore metus vulputate episcing</p>
+                        </p>
                         <div className="card-actions justify-end">
                             <Link className='btn btn-primary' to='/Shop'>Visit Our Store</Link>
                         </div>
                     </div>
                 </div>
             </div>
+            <Ledear></Ledear>
         </div>
     );
 };
