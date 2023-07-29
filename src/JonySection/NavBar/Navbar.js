@@ -16,9 +16,15 @@ const Navbar = () => {
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to='/home'>Home</Link></li>
                             <li><Link to='/Shop'>Shop</Link></li>
-
                             <li><Link to='/blogs'>Blog</Link></li>
-                            <li><Link to='/home'>Vendor</Link></li>
+                            <li><Link to='/Vendor'>Vendor</Link></li>
+                            <div className="dropdown dropdown-hover">
+                                <label tabIndex={0} className="menu menu-sm px-1">About US</label>
+                                <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><Link to='/about'>About US</Link></li>
+                                    <li><Link to='/contact'>Contact US</Link></li>
+                                </ul>
+                            </div>
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-xl w-24 m-4 pr-2"><img src={jonyMart} alt='jonymart' /></a>
@@ -28,9 +34,15 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/Shop'>Shop</Link></li>
-
                         <li><Link to='/blogs'>Blog</Link></li>
-                        <li><Link to='/home'>Vendor</Link></li>
+                        <li><Link to='/Vendor'>Vendor</Link></li>
+                        <div className="dropdown dropdown-hover">
+                            <label tabIndex={0} className="menu menu-horizontal px-1">About US</label>
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><Link to='/about'>About US</Link></li>
+                                <li><Link to='/contact'>Contact US</Link></li>
+                            </ul>
+                        </div>
 
                     </ul>
                 </div>

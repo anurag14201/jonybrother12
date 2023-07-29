@@ -13,6 +13,8 @@ import Shop from './JonySection/Shop/Shop';
 import Blog from './JonySection/Blog/Blog';
 import Vendor from './JonySection/Vendor/Vendor';
 import Subs from './JonySection/Subs/Subs';
+import About from './JonySection/AboutContact/About';
+import Contact from './JonySection/AboutContact/Contact';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path='/shop' element={<Shop></Shop>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/contract' element={<Vendor></Vendor>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/Vendor' element={<Contact></Contact>}></Route>
       </Routes>
       <Subs></Subs>
       <Footer></Footer>
