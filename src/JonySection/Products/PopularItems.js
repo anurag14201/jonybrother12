@@ -20,9 +20,9 @@ const PopularItems = () => {
             </div>
             <div className='lg:grid-cols-5 md:grid-cols-3 sm:grid grid-cols-3 m-4 p-4'>
                 <div className="card bg-base-100 shadow-xl m-2">
-                    <figure className="px-10 pt-10">
-                        <img src={games} alt="Shoes" className="rounded-xl" />
-                    </figure>
+
+                    <img src={games} alt="Shoes" className="rounded-xl" />
+
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Computer</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
