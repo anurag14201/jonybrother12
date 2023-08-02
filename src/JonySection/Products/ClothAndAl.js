@@ -14,7 +14,7 @@ const ClothAndAl = () => {
             <h1 className='text-2xl font-bold m-6 p-6'>Clothing & Apparel</h1>
             <div className='grid grid-cols-2 '>
                 <div className='ml-36'>
-                    <img className='img-full' src={bannerForcol} alt=''></img>
+                    <img className='image-full' src={bannerForcol} alt=''></img>
                 </div>
                 <div className=''>
                     <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 min-[390px]:grid-cols-2'>

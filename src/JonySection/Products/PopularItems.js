@@ -8,6 +8,8 @@ import games from '../../imgfile/Games.jpg'
 import banner5 from '../../imgfile/banner-5.jpg'
 import banner6 from '../../imgfile/banner-6.jpg'
 import ClothAndAl from './ClothAndAl';
+import Consumer from './Consumer';
+import HomeGarden from './HomeGarden';
 
 
 const PopularItems = () => {
@@ -219,6 +221,8 @@ const PopularItems = () => {
                 </div>
             </div>
             <ClothAndAl></ClothAndAl>
+            <Consumer></Consumer>
+            <HomeGarden></HomeGarden>
 
         </div>
 
